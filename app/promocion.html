@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>Promocion App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="app">
+    
+	<main class="app-content" style="background-color: #ffffff; margin-top: 3px; margin-left: 0px; padding: 5px;">
+	  <div class="user bs-component">
+        <ul class="nav nav-tabs col-lg-12">
+			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#empleo">Empleo</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#venta">Venta</a></li>
+		</ul>
+		
+		<div class="tab-content col-lg-12">
+		
+		<div class="tab-pane active" id="empleo">
+			<div class="tile">
+				<div class="pull-right"><a href="" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalEmpleoForm">Nueva Publicación</a></div>
+				<h3 class="tile-title">Ofertas de empleo</h3>
+				<p>Listas de publicaciones de empleo que ofrecen otros productores.</p>
+				<div class="tile-body">
+				  <div class="table-responsive">
+					<table class="table table-hover table-bordered" id="empleoTable" style="text-align:center;">
+					  <thead>
+						<tr>
+						  <th>#</th>
+						  <th>Fecha</th>
+						  <th>Productor</th>
+						  <th>Descripción</th>
+						  <th>Teléfono</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>1</td>
+						  <td>10/11/2020</td>
+						  <td>Juan González</td>
+						  <td><b>Solicito Apicultores</b></td>
+						  <td>2211664671</td>
+						</tr>
+						<tr>
+						  <td>2</td>
+						  <td>09/11/2020</td>
+						  <td>Oscar Mena</td>
+						  <td><b>Solicito gente para pizca</b></td>
+						  <td>2211664585</td>
+						</tr>
+						<tr>
+						  <td>3</td>
+						  <td>1/11/2020</td>
+						  <td>Juan González</td>
+						  <td><b>Solicito experto en suelos</b></td>
+						  <td>2211664671</td>
+						</tr>
+						<tr>
+						  <td>4</td>
+						  <td>15/10/2020</td>
+						  <td>Eunice Cruz</td>
+						  <td><b>Solicito jornalero</b></td>
+						  <td>2213685546</td>
+						</tr>
+						<tr>
+						  <td>5</td>
+						  <td>11/05/2020</td>
+						  <td>Juan González</td>
+						  <td><b>Solicito plaguicida</b></td>
+						  <td>221166471</td>
+						</tr>
+						
+					  </tbody>
+					</table>
+				  </div>
+				</div>
+			</div>
+		</div>
+			
+		<div class="tab-pane fade" id="venta">
+		  <div class="tile">
+			<div class="pull-right"><a href="" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalVentaForm">Nueva Publicación</a></div>
+			<h3 class="tile-title">Ventas</h3>
+			<p>Listas de publicaciones de ventas de productos que ofrecen otros productores.</p>
+            <div class="tile-body">
+              <div class="table-responsive">
+                <table class="table table-hover table-bordered" id="ventasTable" style="text-align:center;">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Fecha</th>
+                      <th>Productor</th>
+                      <th>Teléfono</th>
+                      <th>Descripción</th>
+                      <th>Foto</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>10/11/2020</td>
+                      <td>Juan González</td>
+                      <td>2211664671</td>
+                      <td><b>Aguacate Hass por kilo</b></td>
+                      <td><img src="../assets/images/hass.jpeg" class="img-thumbnail medianaZeroTable1"></td>
+
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>09/11/2020</td>
+                      <td>Oscar Mena</td>
+                      <td>2211664585</td>
+                      <td><b>Aguacate Criollo por tonelada</b></td>
+                      <td><img src="../assets/images/criollo.jpg" class="img-thumbnail medianaZeroTable1"></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>1/11/2020</td>
+                      <td>Juan González</td>
+                      <td>2211664671</td>
+                      <td><b>Aguacate Bacón por kilo</b></td>
+                      <td><img src="../assets/images/bacon.jpg" class="img-thumbnail medianaZeroTable1"></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>15/10/2020</td>
+                      <td>Eunice Cruz</td>
+                      <td>2213685546</td>
+                      <td><b>Aguacate Reed Por kilo</b></td>
+                      <td><img src="../assets/images/reed.jpg" class="img-thumbnail medianaZeroTable1"></td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>11/05/2020</td>
+                      <td>Juan González</td>
+                      <td>221166471</td>
+                      <td><b>Aguacate Pinkerton</b></td>
+                      <td><img src="../assets/images/pinkerton.png" class="img-thumbnail medianaZeroTable1"></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+          </div>
+	   </div>
+    </main>
+	
+	
+	<div class="modal fade" id="modalEmpleoForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Nueva Oferta de Empleo</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fa fa-text-width prefix grey-text"></i> &nbsp;Descripción breve:
+              <input type="text" id="defaultForm-email" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i>Publicar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	<div class="modal fade" id="modalVentaForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Nueva Venta de Producto</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fa fa-text-width prefix grey-text"></i> &nbsp;Descripción que es lo que vendes:
+              <input type="text" id="defaultForm-email" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+              <label>El número de contacto se publica autómaticamente.</label>
+
+            </div>
+            <div class="md-form mb-4">
+              <i class="fa fa-file-image-o grey-text"></i> Subir foto de tu producto<br/>
+              <input type="file" id="myfile" name="myfile">
+              <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>
+            </div>
+            
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i>Publicar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+    <!-- Essential javascripts for application to work-->
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/main1.js"></script>
+	
+	
+	
+    <script type="text/javascript" src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#empleoTable').DataTable();</script>
+    <script type="text/javascript">$('#ventasTable').DataTable();</script>
+	
+	
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="../assets/js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+   
+  </body>
+</html>

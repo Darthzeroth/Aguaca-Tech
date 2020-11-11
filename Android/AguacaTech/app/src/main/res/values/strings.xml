@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AguacaTech</string>
+    <string name="title_home">Información</string>
+    <string name="title_dashboard">Promoción</string>
+    <string name="title_notifications">Productores</string>
+    <string name="password">Contraseña</string>
+    <string name="username">Nombre de usuario</string>
+</resources>

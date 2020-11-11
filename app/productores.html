@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>Productores App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/estilo_mensajeria.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="app">
+    
+	<main class="app-content" style="background-color: #ffffff; margin-top: 3px; margin-left: 0px; padding: 5px;">
+	  <div class="user bs-component">
+        <ul class="nav nav-tabs col-lg-12">
+			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#general">General</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#mispub">Mis Publicaciones</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#mensajes">Mensajes</a></li>
+		</ul>
+		<div class="tab-content col-lg-12">
+			
+			<div class="tab-pane active" id="general">
+			  <div class="tile">
+				<h3 class="tile-title">Publicaciones</h3>
+				<p>Listas de publicaciones de apoyo o asesoría que ofrecen productores.</p>
+				<div class="tile-body">
+				  <div class="table-responsive">
+					<table class="table table-hover table-bordered" id="sampleTable" style="text-align:center;">
+					  <thead>
+						<tr>
+						  <th>Fecha</th>
+						  <th>Productor</th>
+						  <th>Titulo</th>
+						  <th>Imagen</th>
+						  <th>Acciones</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>24/10/2020</td>
+						  <td>Juan González</td>
+						  <td>¡Consejos sobre el manejo del suelo!</td>
+						  <td><img src="../assets/images/manejoSuelo.jpg" class="img-thumbnail medianaZeroTable"></td>
+						  <td><a href="detallePublicacion.php" class="btn btn-warning">Ver detalle</a></td>
+						</tr>
+						<tr>
+						  <td>09/10/2020</td>
+						  <td>Oscar Mena</td>
+						  <td>¡Apicultura!</td>
+						  <td><img src="../assets/images/apicultura.jpg" class="img-thumbnail medianaZeroTable"></td>
+						  <td><a class="btn btn-warning">Ver detalle </a></td>
+						</tr>
+						<tr>
+						  <td>10/11/2020</td>
+						  <td>Juan González</td>
+						  <td>¡Métodos de obtención de agua!</td>
+						  <td><img src="../assets/images/captaAgua.jpg" class="img-thumbnail medianaZeroTable"></td>
+						  <td><a class="btn btn-warning">Ver detalle</a></td>
+						</tr>
+						<tr>
+						  <td>15/10/2020</td>
+						  <td>Eunice Cruz</td>
+						  <td>¡Consejos sobre la permacultura!</td>
+						  <td><img src="../assets/images/permacultura_1.jpg" class="img-thumbnail medianaZeroTable"></td>
+						  <td><a class="btn btn-warning">Ver detalle</a></td>
+						</tr>
+						<tr>
+						  <td>11/05/2020</td>
+						  <td>Juan González</td>
+						  <td>¡Control de plagas!</td>
+						  <td><img src="../assets/images/controlplaga.jpg" class="img-thumbnail medianaZeroTable"></td>
+						  <td><a class="btn btn-warning">Ver detalle</a></td>
+						</tr>
+						
+					  </tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="tab-pane fade" id="mispub">
+			<div class="tile">				
+				<h3 class="tile-title">Mis publicaciones</h3>
+				<div class="pull-right"><a href="" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalLoginForm">Nueva Publicación</a></div>
+				<p>Listas de publicaciones de cosas que ofreces como apoyo a otros productores.</p>
+			</div>
+			
+			  <div class="col-md-12">
+				  <div class="tile">
+					<h3 class="tile-title">¡Consejos sobre el manejo del suelo!</h3>
+					<div class="tile-body">
+					  <p><h6>Te puedo dar consejos de como manejar el suelo para tener un mejor rendimiento.</h6></p>
+					  <center>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 2211664671 </p>
+						  </div>
+						  <div class="col-md-6">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Av. Revolución 204</p>
+						  </div>
+						</div>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><img class="app-sidebar__user-avatar" src="../assets/images/na1.jpg" alt="User Image"><b>Juan González</b></p>
+						  </div>
+						  <div class="col-md-6">
+							<img src="../assets/images/manejoSuelo.jpg" class="img-thumbnail medianaZero">
+						  </div>
+						</div>
+					  </center>
+					</div>
+				  </div>
+				</div>
+
+				<div class="col-md-12">
+				  <div class="tile">
+					<h3 class="tile-title">¡Métodos de obtención de agua!</h3>
+					<div class="tile-body">
+					  <p><h6>Te puedo dar consejos de como obtener agua de lluvia.</h6></p>
+					  <center>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 2211664671 </p>
+						  </div>
+						  <div class="col-md-6">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Av. Revolución 204</p>
+						  </div>
+						</div>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><img class="app-sidebar__user-avatar" src="../assets/images/na1.jpg" alt="User Image"><b>Juan González</b></p>
+						  </div>
+						  <div class="col-md-6">
+							<img src="../assets/images/captaAgua.jpg" class="img-thumbnail medianaZero">
+						  </div>
+						</div>
+					  </center>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="col-md-12">
+				  <div class="tile">
+					<h3 class="tile-title">¡Control de plagas!</h3>
+					<div class="tile-body">
+					  <p><h6>Te puedo dar consejos de como manejar las plagas.</h6></p>
+					  <center>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 2211664671 </p>
+						  </div>
+						  <div class="col-md-6">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Av. Revolución 204</p>
+						  </div>
+						</div>
+						<div class="row">
+						  <div class="col-md-6">
+							<p><img class="app-sidebar__user-avatar" src="../assets/images/na1.jpg" alt="User Image"><b>Juan González</b></p>
+						  </div>
+						  <div class="col-md-6">
+							<img src="../assets/images/controlplaga.jpg" class="img-thumbnail medianaZero">
+						  </div>
+						</div>
+					  </center>
+					</div>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="tab-pane fade" id="mensajes" >
+			
+			<div class="tile user-settings">
+            <h3 class="tile-title">Mensajes</h3>
+			<p>Historial de mensajes con los productores que has contactado.</p>
+			<div class="messaging"  style="height: 90%">
+			  <div class="inbox_msg">
+				<div class="inbox_people" style="width:100%">
+				  <div class="headind_srch" >
+					<div class="recent_heading">
+					  <h4>Recientes</h4>
+					</div>
+					<div class="srch_bar">
+					  <div class="stylish-input-group">
+						<input type="text" class="search-bar"  placeholder="Buscar" >
+						<span class="input-group-addon">
+						<button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+						</span> </div>
+					</div>
+				  </div>
+				<div class="inbox_chat" >
+				  
+				  <a href="" data-toggle="modal" data-target="#modalChatForm">
+					<div class="chat_list active_chat">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Juan Perez<span class="chat_date">Hoy</span></h5>
+						  <p>Buen día!</p>
+						</div>
+					  </div>
+					</div>
+					</a>
+					
+					<div class="chat_list">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Andrea Aguirre<span class="chat_date">Nov 10</span></h5>
+						  <p>Claro que sí, muchas gracias</p>
+						</div>
+					  </div>
+					</div>
+					<div class="chat_list">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Fernando Ochoa<span class="chat_date">Nov 8</span></h5>
+						  <p>Lo visito mañana, buen día</p>
+						</div>
+					  </div>
+					</div>
+					<div class="chat_list">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Carlos Mejía<span class="chat_date">Nov 7</span></h5>
+						  <p>Si pudiera le mando los 4</p>
+						</div>
+					  </div>
+					</div>
+					<div class="chat_list">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Alejandra Hernandez<span class="chat_date">Nov 5</span></h5>
+						  <p>Buen día :)</p>
+						</div>
+					  </div>
+					</div>
+					<div class="chat_list">
+					  <div class="chat_people">
+						<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+						<div class="chat_ib">
+						  <h5>Elawa Catero<span class="chat_date">Nov 5</span></h5>
+						  <p>Buenas tardes, quisiera ponerme en contacto con usted...</p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				
+			  </div>
+			  
+			</div>
+
+			
+		</div>
+	  </div>
+    </main>
+	
+	<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Nueva Publicación</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fa fa-text-width prefix grey-text"></i> Titulo
+              <input type="text" id="defaultForm-email" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+            </div>
+
+            <div class="md-form mb-4">
+              <i class="fa fa-align-center grey-text"></i> Descripción breve
+              <input type="password" id="defaultForm-pass" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>
+            </div>
+            <div class="md-form mb-4">
+              <i class="fa fa-file-image-o grey-text"></i> Subir foto <br/>
+              <input type="file" id="myfile" name="myfile">
+              <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i>Publicar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	
+	<div class="modal fade" id="modalChatForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Conversación con Juan Perez</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+		  
+          <div class="modal-body mx-12">
+		  
+            <div class="mesgs" style="width:100%">
+			  <div class="msg_history">
+				<div class="incoming_msg">
+				  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+				  <div class="received_msg">
+					<div class="received_withd_msg">
+					  <p>Buenas, para avisarle que apliqué a los árboles plagados la solución que me dijo que comprara. Me funcionó perfecto!</p>
+					  <span class="time_date"> 10:41 AM    |    Hoy</span></div>
+				  </div>
+				</div>
+				
+				<div class="incoming_msg">
+				  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+				  <div class="received_msg">
+					<div class="received_withd_msg">
+					  <p>Muchas gracias, en lo que yo pueda ayudarle también, aquí seguimos</p>
+					  <span class="time_date"> 11:00 AM    |    Hoy</span></div>
+				  </div>
+				</div>
+				<div class="outgoing_msg">
+				  <div class="sent_msg">
+					<p>Gracias a usted. Que tenga buen día!</p>
+					<span class="time_date"> 11:01 AM    |    Hoy</span> </div>
+				</div>
+				<div class="incoming_msg">
+				  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="aguacatech"> </div>
+				  <div class="received_msg">
+					<div class="received_withd_msg">
+					  <p>Buen día!</p>
+					  <span class="time_date"> 11:01 AM    |    Hoy</span></div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+          </div>
+		  
+          <div class="modal-footer d-flex justify-content-center" style="width:100%">
+            <div class="type_msg">
+			<div class="input_msg_write">
+			  <input type="text" class="write_msg" placeholder="Escribe un mensaje" />
+			  <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+			</div>
+		  </div>
+          </div>
+        
+		</div>
+	  </div>
+    </div>
+	
+	
+				
+	
+	
+    <!-- Essential javascripts for application to work-->
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/main1.js"></script>
+	
+	
+	<?php
+    include('../tools/scriptDash.php');
+    ?>
+    <script type="text/javascript" src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+	
+	
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="../assets/js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    
+  </body>
+</html>
